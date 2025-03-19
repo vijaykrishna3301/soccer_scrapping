@@ -21,9 +21,3 @@ class ymssoccer(scrapy.Spider):
                     "email": row.xpath("td[4]/a/text()").get(),
                     "email_link": row.xpath("td[4]/a/@href").get(),
                 }
-        elif "another-club.com" in response.url:
-            players = response.xpath("//div[@class='squad-list']/text()").getall()
-        else:
-            players = []
-
-        # yield {"team": response.url, "players": players}
