@@ -15,6 +15,8 @@ NEWSPIDER_MODULE = "soccer_scraper.spiders"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "soccer_scraper (+http://www.yourdomain.com)"
+USER_AGENT = "Instagram 76.0.0.15.395 Android (24/7.0; 640dpi; 1440x2560; samsung; SM-G930F; herolte; samsungexynos8890; en_US; 138226743)"
+
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
